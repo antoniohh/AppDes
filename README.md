@@ -27,12 +27,12 @@
 #### Modificaciones en Android Studio:
 
 Misma configuracion que IntelliJ Idea.
-Creamos la carpeta "var" donde el ide almacena la configuracion, plugins y logs.
-Agregamos una variable de entorno para que cargue el jdk en "commonfiles\jdk".
+Creamos la carpeta `var` donde el ide almacena la configuracion, plugins y logs.
+Agregamos una variable de entorno para que cargue el jdk en `commonfiles\jdk`.
 
 `SET IDEA_JDK_64={APP-DIR}\commonfiles\jdk`
 
-Agregamos las rutas en idea.properties.
+Agregamos las rutas en **idea.properties**.
 
 ```
 #---------------------------------------------------------------------
@@ -58,11 +58,12 @@ idea.log.path=${idea.home.path}/var/system/log
 
 #### Modificaciones en Arduino Studio:
 
-Creamos la carpeta "portable" y por defeto el ide almacena en ella la configuraci�n.
+Creamos la carpeta `portable` y por defeto el ide almacena en ella la configuracion.
 
 #### Modificaciones en Eclipse Mars 2:
 
-Agregamos la ruta del jdk en "commonfiles\jdk" en eclipse.ini.
+Agregamos la ruta del jdk de `commonfiles\jdk` en el archivo de configuracion de eclipse.
+Editamos el archivo **eclipse.ini**.
 
 ```
 -vm
@@ -72,12 +73,12 @@ Agregamos la ruta del jdk en "commonfiles\jdk" en eclipse.ini.
 #### Modificaciones en IntelliJ Idea:
 
 Misma configuracion que Android Studio.
-Creamos la carpeta "var" donde el ide almacena la configuracion, plugins y logs.
-Agregamos una variable de entorno para que cargue el jdk en "commonfiles\jdk".
+Creamos la carpeta `var` donde el ide almacena la configuracion, plugins y logs.
+Agregamos una variable de entorno para que cargue el jdk en `commonfiles\jdk`.
 
 `SET IDEA_JDK_64={APP-DIR}\commonfiles\jdk`
 
-Agregamos las rutas en idea.properties.
+Agregamos las rutas en **idea.properties**.
 
 ```
 #---------------------------------------------------------------------
@@ -103,7 +104,9 @@ idea.log.path=${idea.home.path}/var/system/log
 
 #### Modificaciones en JDeveloper:
 
-Agregamos la ruta del jdk en "commonfiles\jdk" en jdev.conf.
+Agregamos la ruta del jdk en `commonfiles\jdk` en el archivo de configuracion de jDeveloper.
+
+Editamos el archivo **jdev.conf**.
 
 ```
 #SetJavaHome @JAVA_HOME@
@@ -112,7 +115,9 @@ SetJavaHome .\..\..\..\commonfiles\jdk
 
 #### Modificaciones en SQL Developer:
 
-Agregamos la ruta del jdk en "commonfiles\jdk" en sqldeveloper.conf.
+Agregamos la ruta del jdk en `commonfiles\jdk` en el archivo de configuracion de SQL Developer.
+
+Editamos el archivo **sqldeveloper.conf**.
 
 ```
 #SetJavaHome ../../jdk
@@ -122,7 +127,7 @@ SetJavaHome .\..\..\..\commonfiles\jdk
 
 #### Modificaciones en NetBeans:
 
-Agregamos la ruta del jdk en "commonfiles\jdk" en netbenas.conf.
+Agregamos la ruta del jdk en `commonfiles\jdk` en **netbenas.conf**.
 
 `netbeans_jdkhome="../../commonfiles/jdk"`
 
@@ -132,5 +137,10 @@ Agregamos la ruta del jdk en "commonfiles\jdk" en netbenas.conf.
 * Rights are owned by their respective developers.
 * Aplicaciones Desarrollo it is a package to facilitate installation of these programs.
 * It is free and nonprofit.
+
+### Download.
+
+Download a full copy of Aplicaciones Desarrollo: [AppDes](http://www.4shared.com/file/Yids9mEZce/AppDesIns.html)
+All applications are free and are distributed also free.
 
 AppDes.
