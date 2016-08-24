@@ -102,7 +102,7 @@ Name: "{commonprograms}\{#MyAppName5}"; Filename: "{app}\xampp\{#MyAppExeName5}"
 Name: "{commondesktop}\{#MyAppName5}"; Filename: "{app}\xampp\{#MyAppExeName5}"; Components: xampp; Tasks: xampp
 
 [Registry]
-Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; ValueType: expandsz; ValueName: "JAVA_HOME"; ValueData: "{app}\commonfiles\jdk"; Components: cf; Tasks: varjavahome
+Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; ValueType: expandsz; ValueName: "JAVA_HOME"; ValueData: "{app}\commonfiles\jdk\jre"; Components: cf; Tasks: varjavahome
 Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; ValueType: expandsz; ValueName: "Path"; ValueData: "{olddata};{app}\commonfiles\jdk\bin"; Components: cf; Tasks: varpathbin
 Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; ValueType: expandsz; ValueName: "ANDROID_HOME"; ValueData: "{app}\commonfiles\sdk"; Components: studio; Tasks: varandroid
 Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; ValueType: expandsz; ValueName: "IDEA_JDK_64"; ValueData: "{app}\commonfiles\jdk"; Components: studio; Tasks: varidea64
